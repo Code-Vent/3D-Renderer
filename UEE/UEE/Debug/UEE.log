@@ -1,0 +1,45 @@
+﻿Build started 8/20/2017 11:33:26 AM.
+     1>Project "C:\Users\HP\Documents\Visual Studio 2015\Projects\UnseriousElementsEngine\UEE\UEE\UEE.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Apps\testApp.cpp
+         testApp.cpp
+     1>c:\users\hp\documents\visual studio 2015\projects\unseriouselementsengine\uee\uee\apps\testapp.cpp(60): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\HP\Documents\Visual Studio 2015\Projects\UnseriousElementsEngine\UEE\Debug\UEE.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\Dependencies\freeglut /LIBPATH:..\Dependencies\glew /LIBPATH:..\Dependencies\freeImage kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib freeglut.lib glew32.lib freeImage.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\HP\Documents\Visual Studio 2015\Projects\UnseriousElementsEngine\UEE\Debug\UEE.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\HP\Documents\Visual Studio 2015\Projects\UnseriousElementsEngine\UEE\Debug\UEE.lib" /MACHINE:X86 Debug\application.obj
+         Debug\glApplication.obj
+         Debug\testApp.obj
+         Debug\memory.obj
+         Debug\model2D.obj
+         Debug\model3D.obj
+         Debug\camera.obj
+         Debug\meshInfo.obj
+         Debug\render.obj
+         Debug\surfaceInfo.obj
+         Debug\texture2D.obj
+         Debug\main.obj
+         Debug\mathf.obj
+         Debug\matrix4x4.obj
+         Debug\quaternion.obj
+         Debug\vector2.obj
+         Debug\vector3.obj
+         Debug\vector4.obj
+         Debug\transform.obj
+         Debug\glsl.obj
+         Debug\shader.obj
+         Debug\simpleBumpMapped.frag.obj
+         Debug\simpleBumpMapped.vert.obj
+         Debug\simpleFragmentLighting.frag.obj
+         Debug\simpleFragmentLighting.vert.obj
+         Debug\simpleFragmentTextured.frag.obj
+         Debug\simpleFragmentTextured.vert.obj
+         Debug\simpleVertexLighting.frag.obj
+         Debug\simpleVertexLighting.vert.obj
+         Debug\fileUtils.obj
+         Debug\resourceUtils.obj
+         Debug\stringUtils.obj
+         UEE.vcxproj -> C:\Users\HP\Documents\Visual Studio 2015\Projects\UnseriousElementsEngine\UEE\Debug\UEE.exe
+     1>Done Building Project "C:\Users\HP\Documents\Visual Studio 2015\Projects\UnseriousElementsEngine\UEE\UEE\UEE.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.35

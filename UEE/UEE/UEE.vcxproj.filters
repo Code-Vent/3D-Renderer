@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{a047a477-3e45-4a40-a57b-1ce394c4fa29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{bbfbc798-31dc-4748-a49a-6e48cfab3723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{de7b2150-7852-465a-ac06-a0ce1cca1116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\core">
+      <UniqueIdentifier>{edd98649-0ca3-46dc-92b7-6a7ebe4cd5e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\math">
+      <UniqueIdentifier>{6703d0bd-01bc-42d7-9c89-e85bce03753f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math">
+      <UniqueIdentifier>{18bd457e-e163-404e-a4a3-84ad17bcd38c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graphx">
+      <UniqueIdentifier>{da33d970-894f-4934-8165-b5c7ba9495cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphx">
+      <UniqueIdentifier>{6d14278f-08e7-490c-bd9c-fc10da50cf35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shader">
+      <UniqueIdentifier>{87054944-7a45-46e1-b799-32582fbf3e02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shader">
+      <UniqueIdentifier>{40bf3c1f-46bf-43c0-8db6-1b37661305e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\physx">
+      <UniqueIdentifier>{9e5dafd0-fd7c-43f9-abfb-b45d2cdf0727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\physx">
+      <UniqueIdentifier>{118c17ab-724b-44d7-ad45-413b061d30e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\entity">
+      <UniqueIdentifier>{4a9c03d1-45cf-4260-b118-51add27a9a4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\entity">
+      <UniqueIdentifier>{05f70527-39fe-466e-9a08-90495b022eb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\apps">
+      <UniqueIdentifier>{e47be0c9-dc43-469e-bb1a-382fb1a9902f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\apps">
+      <UniqueIdentifier>{e395d221-4342-43d3-a0ac-c58c9fd86da4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils\fileUtils.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\utils.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\typedefs.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\stringUtils.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\resourceUtils.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\memory.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\core.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\meshInfo.h">
+      <Filter>Header Files\graphx</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\surfaceInfo.h">
+      <Filter>Header Files\graphx</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\vector2.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\mathf.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\vector3.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\vector4.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\quaternion.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\matrix4x4.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\camera.h">
+      <Filter>Header Files\graphx</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\render.h">
+      <Filter>Header Files\graphx</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\texture2D.h">
+      <Filter>Header Files\graphx</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\shader.h">
+      <Filter>Header Files\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\transform.h">
+      <Filter>Header Files\physx</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\glsl.h">
+      <Filter>Header Files\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity\model2D.h">
+      <Filter>Header Files\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity\model3D.h">
+      <Filter>Header Files\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Apps\application.h">
+      <Filter>Header Files\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Apps\glApplication.h">
+      <Filter>Header Files\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Apps\3dviewer.h">
+      <Filter>Header Files\apps</Filter>
+    </ClInclude>
+    <ClInclude Include="Apps\meshxml.h">
+      <Filter>Header Files\apps</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Utils\fileUtils.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\stringUtils.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\resourceUtils.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\memory.cpp">
+      <Filter>Source Files\core</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\meshInfo.cpp">
+      <Filter>Source Files\graphx</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\surfaceInfo.cpp">
+      <Filter>Source Files\graphx</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\vector2.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\mathf.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\vector3.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\vector4.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\quaternion.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\matrix4x4.cpp">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\camera.cpp">
+      <Filter>Source Files\graphx</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\render.cpp">
+      <Filter>Source Files\graphx</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\texture2D.cpp">
+      <Filter>Source Files\graphx</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\shader.cpp">
+      <Filter>Source Files\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\transform.cpp">
+      <Filter>Source Files\physx</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\glsl.cpp">
+      <Filter>Source Files\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\simpleVertexLighting.vert.cpp">
+      <Filter>Source Files\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\simpleVertexLighting.frag.cpp">
+      <Filter>Source Files\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\simpleFragmentLighting.vert.cpp">
+      <Filter>Source Files\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\simpleFragmentLighting.frag.cpp">
+      <Filter>Source Files\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\simpleFragmentTextured.vert.cpp">
+      <Filter>Source Files\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\simpleFragmentTextured.frag.cpp">
+      <Filter>Source Files\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\simpleBumpMapped.vert.cpp">
+      <Filter>Source Files\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\simpleBumpMapped.frag.cpp">
+      <Filter>Source Files\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity\model2D.cpp">
+      <Filter>Source Files\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity\model3D.cpp">
+      <Filter>Source Files\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Apps\application.cpp">
+      <Filter>Source Files\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="Apps\glApplication.cpp">
+      <Filter>Source Files\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="Apps\3dviewer.cpp">
+      <Filter>Source Files\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="Apps\meshxml.cpp">
+      <Filter>Source Files\apps</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\simpleFragmentTexturedBlended.frag.cpp">
+      <Filter>Source Files\shader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="mesh.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="TODO.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

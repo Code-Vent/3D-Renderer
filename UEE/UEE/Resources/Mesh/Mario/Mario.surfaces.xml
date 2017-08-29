@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Surfaces total="1">
+<Surface name="mario_1"
+ka=" 1.0 1.0 1.0"
+kd=" 1.0 1.0 1.0"
+ks=" 1.0 1.0 1.0"
+ns=" 0.0"
+d=" 1.0"
+illum="2"
+map_kd="marioD.jpg"
+/>
+</Surfaces>

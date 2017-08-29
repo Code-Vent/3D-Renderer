@@ -1,0 +1,13 @@
+Need an Event System
+Need a Global ResourceManager
+AssetManager
+
+Types of Resources
+Mesh
+Shader
+Audio
+Animation
+
+
+TODO: 
+make the dll for adding resources

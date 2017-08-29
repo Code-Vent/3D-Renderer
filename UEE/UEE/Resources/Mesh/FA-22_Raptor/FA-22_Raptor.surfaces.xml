@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Surfaces total="3">
+<Surface name="plane"
+ka="0.117647 0.117647 0.117647"
+kd="1 1 1"
+ks="0.752941 0.752941 0.752941"
+ns="8"
+illum="2"
+map_kd="FA-22_Raptor_P01.png"
+map_bump="FA-22_Raptor_N.png"
+bump="FA-22_Raptor_N.png"
+/>
+<Surface name="glass"
+ka="0.117647 0.117647 0.117647"
+kd="1 1 1"
+ks="0.752941 0.752941 0.752941"
+ns="8"
+illum="2"
+map_kd="Glass_Cockpit.png"
+/>
+<Surface name="pilot"
+ka="0.117647 0.117647 0.117647"
+kd="1 1 1"
+ks="0.752941 0.752941 0.752941"
+ns="8"
+illum="2"
+map_kd="Pilot_usa.png"
+/>
+</Surfaces>

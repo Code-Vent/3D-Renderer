@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Surfaces total="3">
+<Surface name="mesh_01"
+ka="0.4 0.4 0.4"
+kd="1 1 1"
+ks="1 1 1"
+ns="55.7152"
+illum="2"
+map_kd="rikku1.png"
+map_d="rikku1.png"
+/>
+<Surface name="Material__36"
+ka="0.4 0.4 0.4"
+kd="1 1 1"
+ks="1 1 1"
+ns="121.887"
+illum="2"
+map_kd="1174.png"
+map_bump="1174-normal.png"
+bump="1174-normal.png"
+/>
+<Surface name="mesh_04"
+ka="0.4 0.4 0.4"
+kd="1 1 1"
+ks="1 1 1"
+ns="64"
+illum="2"
+map_kd="rikku2.png"
+map_d="rikku2.png"
+/>
+</Surfaces>
